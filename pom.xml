@@ -59,6 +59,10 @@
         <maven.build.timestamp.format>yyyy</maven.build.timestamp.format>
         <currentYear>${maven.build.timestamp}</currentYear>
 		<version.java>11</version.java>
+ 
+    <version.sqljdbc>12.4.0.jre11-preview</version.sqljdbc>
+    
+ 
 
 		<!-- Logger configuration -->
 		<config.logger.fileappender.filename>${conf.sos.name}</config.logger.fileappender.filename>
